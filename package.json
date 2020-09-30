@@ -1,0 +1,25 @@
+{
+  "name": "learn-shopping2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "run.js",
+  "dependencies": {
+    "knex": "^0.21.5",
+    "pg": "^8.3.3",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/changc42/learn-shopping2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/changc42/learn-shopping2/issues"
+  },
+  "homepage": "https://github.com/changc42/learn-shopping2#readme"
+}

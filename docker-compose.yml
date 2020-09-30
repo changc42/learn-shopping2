@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  postgres:
+    image: postgres:12
+    container_name: learn_db
+    ports:
+      - 5433:5432
+    environment:
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_USER=shopping
+      - POSTGRES_DB=shopping
